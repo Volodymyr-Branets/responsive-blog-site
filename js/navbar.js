@@ -2,7 +2,7 @@ const navbar = `
 <section>
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand logo-text" href="#"><i class="ri-video-line ri-xl text-danger"></i>
+            <a class="navbar-brand logo-text" href="index.html"><i class="ri-video-line ri-xl text-danger"></i>
                 my_vlog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
