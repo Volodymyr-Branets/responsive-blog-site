@@ -1,9 +1,9 @@
 const navbar = `
-<section>
+<section class="pb-5">
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand logo-text" href="index.html"><i class="ri-video-line ri-xl text-danger"></i>
-                my_vlog</a>
+            <a class="navbar-brand logo-text" href="index.html"><i class="ri-attachment-line ri-xl text-danger"></i>
+                My Blog</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                 <span class="navbar-toggler-icon"></span>
