@@ -2,6 +2,14 @@
 body {
     font-family: 'Rubik Distressed', cursive;
 }
+.nav-link{
+    color: white;
+    font-size: large;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.nav-link:hover {
+    color: #dc3545;
+}
 .logo-text {
     font-size: smaller;
 }
