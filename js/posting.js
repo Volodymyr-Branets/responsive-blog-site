@@ -3,7 +3,7 @@ const postsSection = document.querySelector(".posts");
 function renderPosts() {
   posts.forEach((post) => {
     postsSection.innerHTML += `
-        <div class="row m-3">
+        <div class="row row-cols-1 row-cols-md-2 m-3">
             <div class="col"
                 style="background-image: url(img/${post.img}); background-size: cover; background-position: center; height: 350px;">
             </div>
