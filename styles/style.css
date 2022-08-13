@@ -48,3 +48,7 @@ body {
             clip-path: inset(0 0 0 0);
         }
 }
+
+.btn-more {
+    float: right;
+}
