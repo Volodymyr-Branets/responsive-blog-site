@@ -10,8 +10,8 @@ function renderPosts() {
             <div class="col">
                 <h2>${post.title}</h2>
                 <hr class="text-danger">
-                <p>${post.shortText}</p>
-                <p><small class="text-muted">Date: ${post.date}</small></p>
+                <p class="blog-posts">${post.shortText}</p>
+                <p><small class="text-muted blog-posts">Date: ${post.date}</small></p>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-danger btn-more" onclick="renderModal(${post.id})" data-bs-toggle="modal" data-bs-target="#blog-post-modal">
                     More...

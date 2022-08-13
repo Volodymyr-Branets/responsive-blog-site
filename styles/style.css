@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Distressed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 body {
     font-family: 'Rubik Distressed', cursive;
 }
-.nav-link{
+.nav-link, .blog-posts{
     color: white;
     font-size: large;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Montserrat', sans-serif;;
 }
 .nav-link:hover {
     color: #dc3545;
@@ -51,4 +52,11 @@ body {
 
 .btn-more {
     float: right;
+}
+
+/* .modal-backdrop {
+    background-color: #fd7e14;
+} */
+.modal-content {
+    background-color: #343a40;
 }
